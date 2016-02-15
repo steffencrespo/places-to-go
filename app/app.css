@@ -29,3 +29,21 @@
   content: "";
   padding: 0;
 }
+
+.place-list-position {
+  padding-right: 100px;
+}
+
+.place-name {
+  padding-right: 100px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.place-url {
+  padding-right: 100px;
+}
+
+.place-rating {
+  padding-left: 10px;
+}
