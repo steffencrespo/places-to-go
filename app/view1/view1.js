@@ -9,6 +9,17 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function() {
-
+.controller('View1Ctrl', ['$scope', function($scope) {
+  $scope.restaurantsList = [
+    {
+      name: 'Loló',
+      points: 322,
+      url: 'www.lolosf.com'
+    },
+    {
+      name: 'Fernando',
+      points: 207,
+      url: 'www.google.com'
+    }
+  ];
 }]);
