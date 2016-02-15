@@ -9,17 +9,8 @@ angular.module('myApp.restaurants', ['ngRoute'])
   });
 }])
 
-.controller('RestaurantsCtrl', ['$scope', function($scope) {
-  $scope.restaurantsList = [
-    {
-      name: 'Loló',
-      points: 322,
-      url: 'www.lolosf.com'
-    },
-    {
-      name: 'Fernando',
-      points: 207,
-      url: 'www.google.com'
-    }
-  ];
+.controller('RestaurantsCtrl', ['$scope', '$http', function($scope, $http) {
+  $http.get('restaurants/restaurants.json').success(function(data) {
+    $scope.restaurantsList = data;
+  });
 }]);
