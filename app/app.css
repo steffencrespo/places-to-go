@@ -1,5 +1,16 @@
 /* app css stylesheet */
 
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -36,7 +47,6 @@
 
 .place-name {
   padding-right: 100px;
-  text-decoration: underline;
   font-style: italic;
 }
 
