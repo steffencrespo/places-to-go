@@ -36,7 +36,7 @@ folders in your project.
 angular-seed changes this location through the `.bowerrc` file.  Putting it in the app folder makes
 it easier to serve the files by a webserver.*
 
-### Run the Angular Application
+### Run the Application
 
 We have preconfigured the project with a simple development web server.  The simplest way to start
 this server is:
@@ -46,20 +46,6 @@ npm start
 ```
 
 Now browse to the app at `http://localhost:8000/app/index.html`.
-
-### Run the Nodejs server
-Using nodemon to avoid having to restart the server every time anything changes.
-Install nodemon globally
-```
-npm install -g
-```
-
-then start the server
-```
-nodemon server.js 
-```
-
-Now you have a server listening on port 8080
 
 ## Testing
 
