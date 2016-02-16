@@ -48,8 +48,15 @@ npm start
 Now browse to the app at `http://localhost:8000/app/index.html`.
 
 ### Run the Nodejs server
+Using nodemon to avoid having to restart the server every time anything changes.
+Install nodemon globally
 ```
-node server.js 
+npm install -g
+```
+
+then start the server
+```
+nodemon server.js 
 ```
 
 Now you have a server listening on port 8080
